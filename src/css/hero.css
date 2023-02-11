@@ -1,0 +1,30 @@
+.hero-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  align-items: center;
+  max-width: 1920px;
+  margin-block: 2rem;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-img {
+  border-radius: 50%;
+}
+
+.cta a {
+  align-self: center;
+}
+
+.cta {
+  padding: .8em;
+  border: 1px solid darkgrey;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+  border-radius: .5em;
+  font-size: large;
+}

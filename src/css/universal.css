@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+/* set max-width 1920px */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+nav {
+  background-color: #eee;
+}
+
+a:link {
+  color: rgb(56, 54, 54);
+  text-decoration: none; 
+}
+
+.main {
+  flex: 1;
+}
